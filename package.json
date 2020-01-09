@@ -1,0 +1,21 @@
+{
+  "name": "data-bucketing-tool",
+  "version": "1.0.0",
+  "description": "Data bucketing tool is for sorting tabular data based on similarity in string values. Further there is a manual duplicate data elimination functionality.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "dependencies": {
+    "electron-rebuild": "^1.8.2",
+    "zerorpc": "git+https://github.com/fyears/zerorpc-node.git"
+  },
+  "author": "Deepu Shaji<deepu@icfoss.in>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "1.7.6",
+    "electron-packager": "^9.0.1"
+  }
+}

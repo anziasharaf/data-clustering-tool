@@ -1,0 +1,5 @@
+node_modules/
+appdist/
+app/__pycache__/
+Output/*.csv
+app/*.csv
